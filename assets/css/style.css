@@ -14,12 +14,44 @@
     flex-direction: column;
     min-height: 100vh;
     background-color: cadetblue;
-    font-family: robto;
+    font-family: roboto;
  }
 
 /*heading style  */
 header {
-   background-color:coral;
+   z-index: 3;
+   width: 100%;
+   box-shadow: 0 1px;
+   background-color:white;
+   position: fixed;
+   padding: 0 1rem;
+
+}
+
+header a {
+   text-decoration: none;
+   color: #14202f;
+}
+
+h1 {
+   letter-spacing: .5px;
+   font-family: roboto;
+   font-size: larger;
+}
+
+/* navigation bar menu ID */
+#bar {
+    list-style-type: none;
+    font-size: 90%;
+    letter-spacing: 2px;
+}
+
+#bar > li {
+   margin-bottom: 12px;
+}
+
+.active {
+   border-bottom: 1px solid #000000;
 }
 
 /* main style content */
