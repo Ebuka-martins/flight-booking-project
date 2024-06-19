@@ -23,8 +23,12 @@ header {
    width: 100%;
    box-shadow: 0 1px;
    background-color:white;
+   justify-content: space-between;
+   align-items: baseline;
    position: fixed;
-   padding: 0 1rem;
+   padding: 0 16px 0 16px;
+   display: flex;
+   
 
 }
 
@@ -54,10 +58,36 @@ h1 {
    border-bottom: 1px solid #000000;
 }
 
+/* creating a navigation style */
+nav {
+   padding: 0 16px 0 16px;
+   width: 100%;
+   position: absolute;
+   top: 100%;
+   left: 0;
+   display: none;
+   background-color: #ffffff;
+   box-shadow: 0 1px #14202f;
+
+}
+
+/* adding navigation clicking */
+#nav-click:checked~nav {
+   display: block;
+}
+
+#nav-click {
+     display: none;
+}
+.nav-click-label {
+    font-size: 2rem;
+}
+
 /* main style content */
 main {
    background-color: slategrey;
    flex: 1 0 auto;
+   margin-top: 32px;
    font-family: robto;
 }
 
