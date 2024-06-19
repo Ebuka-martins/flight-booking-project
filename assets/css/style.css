@@ -71,7 +71,6 @@ nav {
 
 }
 
-
 /* adding navigation clicking */
 #nav-click:checked~nav {
    display: block;
@@ -88,7 +87,7 @@ nav {
 main {
    background-color: slategrey;
    flex: 1 0 auto;
-   margin-top: 32px;
+   margin-top: 34px;
    font-family: robto;
 }
 
@@ -121,5 +120,18 @@ footer {
       margin: 0 0 0 2px;
       font-size: 180%;
       line-height: 45px;
+   }
+
+   main {
+      margin-top: 48px;
+   }
+
+}
+
+/* Creating media query for larger device */
+@media screen and (min-width: 992px) {
+   
+   #bar a:hover {
+      border-bottom: 1px solid #14202f;
    }
 }
