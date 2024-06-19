@@ -71,6 +71,7 @@ nav {
 
 }
 
+
 /* adding navigation clicking */
 #nav-click:checked~nav {
    display: block;
@@ -94,4 +95,31 @@ main {
 /* footer */
 footer {
     background-color: black;
+}
+
+/* creating media query from mobile-to-tablet using 768px */
+
+@media screen and (min-width: 768px) {
+   nav {
+      position: relative;
+      width: fit-content;
+      padding-right: 16px;
+      display: block;
+   }
+   #bar {
+      display: flex;
+   }
+   #bar > li {
+      padding-left: 16px;
+   }
+   
+   .nav-click-label {
+      display: none;
+   }
+
+   #symbol {
+      margin: 0 0 0 2px;
+      font-size: 180%;
+      line-height: 45px;
+   }
 }
