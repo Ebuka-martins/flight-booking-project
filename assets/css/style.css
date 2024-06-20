@@ -35,12 +35,18 @@ header {
 header a {
    text-decoration: none;
    color: #14202f;
+   /* color: rgb(2, 27, 65);; */
 }
 
 h1 {
    letter-spacing: .5px;
    font-family: roboto;
    font-size: larger;
+}
+
+#copy {
+   color: #ffffff;
+   font-size: .75rem;
 }
 
 /* navigation bar menu ID */
