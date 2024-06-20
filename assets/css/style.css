@@ -44,10 +44,6 @@ h1 {
    font-size: larger;
 }
 
-#copy {
-   color: #ffffff;
-   font-size: .75rem;
-}
 
 /* navigation bar menu ID */
 #bar {
@@ -93,14 +89,35 @@ nav {
 main {
    background-color: slategrey;
    flex: 1 0 auto;
-   margin-top: 34px;
+   margin-top: 32px;
    font-family: robto;
 }
 
 /* footer */
-footer {
+#social-media {
     background-color: black;
+    padding: 20px 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
 }
+
+#social-media i {
+   color: #ffffff;
+   padding: 5%;
+   font-size: 120%;
+   justify-content: center;
+}
+
+/* #copy {
+   color: #ffffff;
+   font-size: .75rem;
+   text-align: center;
+   padding-top: 10px;
+   
+} */
 
 /* creating media query from mobile-to-tablet using 768px */
 
