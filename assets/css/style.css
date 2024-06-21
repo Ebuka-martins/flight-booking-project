@@ -87,10 +87,17 @@ nav {
 
 /* main style content */
 main {
-   background-color: slategrey;
    flex: 1 0 auto;
    margin-top: 32px;
    font-family: robto;
+}
+
+/* flight section */
+#flight {
+   height: 600px;
+   width: 100%;
+   background: url("../image/plane.webp") no-repeat center center/cover;
+
 }
 
 /* footer */
