@@ -13,7 +13,6 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: cadetblue;
     font-family: roboto;
  }
 
@@ -29,7 +28,6 @@ header {
    padding: 0 16px 0 16px;
    display: flex;
    
-
 }
 
 header a {
@@ -92,13 +90,82 @@ main {
    font-family: robto;
 }
 
+
 /* flight section */
-#flight {
-   height: 600px;
+#booking {
+   min-height: 80vh;
    width: 100%;
    background: url("../image/plane.webp") no-repeat center center/cover;
+   position: relative;
 
 }
+
+#flight {
+   width: 100%;
+}
+
+#front-text {
+   color: #ffffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-self: center;
+   margin-bottom: 20px;
+   margin-top: 40px;
+
+}
+
+.explore {
+   margin-bottom: 50px;
+   background-color: rgba(0, 0, 0, .6);
+   margin: 5px;
+
+}
+
+h2 {
+  color: #ffffff;
+  padding-top: 20px;
+  text-align: center;
+} 
+
+
+
+/* registration properties */
+
+#registration-form {
+   padding: 0 10px;
+   background-color: rgba(0, 0, 0, .6);
+   color: #ffffff;
+   width: 100%;
+   border-radius: 10px;
+   padding-bottom: 50px;
+}
+
+
+#registration {
+   width: 100%;
+}
+
+.book-input {
+   background: transparent;
+   cursor: pointer;
+   color: #ffffff;
+}
+
+.book-button {
+   background-color: #ffffff;
+   color:#000000;
+   cursor: pointer;
+   padding: 15px;
+   font-weight: bold;
+   margin-top: 10px;
+
+}
+
+.book-button:hover {
+   background-color: saddlebrown;
+}
+
 
 /* footer */
 #social-media {
@@ -148,6 +215,22 @@ main {
    main {
       margin-top: 48px;
    }
+   
+#registration-form  {
+   margin: 5px;
+}
+
+   #registration {
+      align-items: center;
+      width: 500px;
+      height: 250px;
+      align-items: center;
+      margin: auto;
+   }
+
+   #front-text {
+      margin-top: 50px;
+   }
 
 }
 
@@ -156,5 +239,48 @@ main {
    
    #bar a:hover {
       border-bottom: 1px solid #14202f;
+   }
+    .explore {
+      display: flex;
+      flex-direction: column;
+     height: 100px;
+     width: 100%;
+     margin: 20px;
+     background-color: rgba(0, 0, 0, .6);
+     
+   } 
+   #registration-form {
+      padding: 0 10px;
+      background-color: rgba(0, 0, 0, .6);
+      color: #ffffff;
+      width: 500px;
+      height: 250px;
+      border-radius: 10px;
+      margin-bottom: 5rem;
+   }
+   #registration {
+      margin-bottom: 50px;
+   }
+   #booking {
+      min-height: 100vh;
+   }
+
+   #front-text {
+      margin-top: 50px;
+   }
+
+
+}
+/* media query for destop and larger */
+@media screen and (min-width: 1024px) {
+   #registration {
+      margin-bottom: 50px;
+   }
+   #booking {
+      height: 100vh;
+   }
+
+   #front-text {
+      margin-top: 50px;
    }
 }

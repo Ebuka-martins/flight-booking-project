@@ -38,10 +38,77 @@
             </ul>
         </nav>
     </header>
-    
+
     <!-- main content -->
     <main>
-        <section id="flight"></section>
+        <div id="booking">
+            <section>
+                <div id="flight">
+                    <h2>DISCOVER THE NEW ADVENTURE</h2>
+                    <div id="front-text">
+                        <div class="explore">
+                            <p>
+                                "Embrace the skies and let your spirit soar.
+                                Your next adventure is just a flight away. Buckle up and enjoy the journey!"
+                            </p>
+                        </div>
+                        <div class="explore">
+                            <p>
+                                "Step aboard and let the clouds be your guide.
+                                The world is vast and full of wonders. Fly with us and discover new horizons."
+                            </p>
+                        </div>
+                        <div class="explore">
+                            <p>
+                                "Leave the ground behind and reach for the stars.
+                                Every flight is a new story waiting to be written. Experience the magic of travel."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+           <!-- form filling sections -->
+            <section id="registration">
+
+                <form id="registration-form" action="#" method="post" target="_blank">
+                    <h2>Search For your Trips <i class="fa-regular fa-address-card"></i></h2>
+                    <label for="username">Username</label>
+                    <input type="email" id="username" name="username" placeholder="username" class="book-input" required>
+                    <br>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="password" class="book-input"  required>
+                    <br>
+                    <input type="radio" id="trip" name="booking-preference" required>
+                    <label for="trip">Trip</label>
+                    <input type="radio" id="car" name="booking-preference" required>
+                    <label for="car">Car</label>
+                    <input type="radio" id="plane" name="booking-preference" required>
+                    <label for="plane">Plane</label>
+                    <input type="radio" id="hotel" name="booking-preference" required>
+                    <label for="hotel">Hotel</label>
+                    <br>
+                    <label for="from">From</label>
+                    <input type="date" id="from" name="from" class="book-input">
+                    <br>
+                    <label for="return">Return</label>
+                    <input type="date" id="return" name="return" class="book-input">
+                    <br>
+                    <label for="travel">Travel Choice</label>
+                    <select id="travel" name="travel">
+                        <option value="business">Business Class</option>
+                        <option value="economy">Economy Class</option>
+                        <option value="private">Economy Class</option>
+                    </select>
+                    <br>
+                    <div>
+                        <button type="submit" class="book-button">BOOK YOUR FLIGHT</button>
+                    </div>
+                </form>
+
+
+            </section>
+        </div>
+
     </main>
 
 
@@ -60,7 +127,7 @@
 
             <li><a href="https://www.instagram.com/" rel="noopener" aria-label="contact us via twitter"
                     target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
-       
+
         </ul>
 
     </footer>
