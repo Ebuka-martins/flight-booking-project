@@ -39,14 +39,54 @@
         </nav>
     </header>
 
+    <!-- creating a booking section from the menu -->
     <main>
       <section id="booking-image">
-        
+        <form id="reservation" action="#" method="get">
+        <h2>PHANTOM AIRWAYS</h2>
+        <label for="fname">First Name</label>
+        <input type="text" id="name" name="fname" class="table-text" required>
+        <br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" class="table-text" required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" class="table-text" required>
+        <br>
+        <label for destination>Destination</label>
+        <select>
+            <option value="Ireland">Ireland</option>
+            <option value="england">England</option>
+            <option value="sweden">Sweden</option>
+            <option value="finland">Finland</option>
+            <option value="denmark">Denmark</option>
+            <option value="portugal">Portugal</option>
+            <option value="usa">United State of America</option>
+            <option value="slovakia">Slovakia</option>
+            <option value="holland">Holland</option>
+            <option value="newzealand">New Zealand</option>
+        </select><br>
+        <div>
+        <label for="type">Ticket Type:</label>
+        <input type="radio" id="lowest Price" name="choice-preference">
+        <label for="lowest">Lowest Price</label>
+        <input type="radio" id="flexible" name="choice-preference">
+        <label for="flexible">Flexible Ticket</label>
+        <br>
+    </div>
+        <input type="checkbox" id="tick" name="tick-input">
+        <label>I UNDERSTAND AND AGREE TO THIS FORM AND FLIGHT POLICY</label>
+        <div>
+            <button type="submit" class="table-button">BOOK YOUR FLIGHT</button>
+        </div>
+        <div>
+            <button type="reset" class="table-button">RESET</button>
+        </div>
         
             
 
 
-        
+    </form>
       </section>
     </main>
 
