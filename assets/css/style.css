@@ -93,7 +93,7 @@ main {
 
 /* flight section */
 #booking {
-   min-height: 80vh;
+   min-height: 130vh;
    width: 100%;
    background: url("../image/plane.webp") no-repeat center center/cover;
    position: relative;
@@ -151,6 +151,10 @@ h2 {
    cursor: pointer;
    color: #ffffff;
    width: 100px;
+   height: 30px;
+   border-radius: 3px;
+   padding: 0 5px;
+
 }
 
 .book-button {
@@ -171,12 +175,12 @@ h2 {
 /* styling of booking page background */
 #booking-image {
    background: url("../image/booking-image.webp") no-repeat center center/cover;
-   min-height: 85vh;
+   min-height: 100vh;
    width: 100%;
    flex: 1;
 }
 
-/* booking page for form   */
+/* booking page for form  for booking.html  */
 
 #reservation {
    color: #ffffff;
@@ -280,6 +284,7 @@ h2 {
       margin-top: 50px;
    }
 
+   /* styling for booking.html */
    #reservation {
       color: #ffffff;
       background-color: rgba(0, 0, 0, .6);
@@ -288,14 +293,15 @@ h2 {
       height: 400px;
       width: 450px;
       margin: auto;
-
+      
    }
-
+   
 }
 
 /* Creating media query for larger device */
 @media screen and (min-width: 992px) {
-   
+
+   /* styling for index.html */
    #bar a:hover {
       border-bottom: 1px solid #14202f;
    }
@@ -313,13 +319,11 @@ h2 {
       background-color: rgba(0, 0, 0, .6);
       color: #ffffff;
       width: 500px;
-      height: 250px;
+      height: 280px;
       border-radius: 10px;
-      margin-bottom: 5rem;
-   }
-   #registration {
       margin-bottom: 50px;
    }
+  
    #booking {
       min-height: 100vh;
    }
@@ -328,12 +332,39 @@ h2 {
       margin-top: 50px;
    }
 
+   .book-input {
+      width: 200px;
+      padding: 0 10px;
+   }
 
+   .book-input:hover {
+      border-color: #ffffff;
+   }
+
+   /* styling for booking.html section */
+
+   .table-text {
+      margin: 5px;
+   }
+
+   .table-text:hover {
+      border-color: #ffffff;
+   }
+
+   .table-button:hover {
+      background-color: #ffffff;
+      margin: 5px;
+
+   }
+
+ 
 }
-/* media query for destop and larger */
+/* media query for screen above 1024px*/
 @media screen and (min-width: 1024px) {
+
+   /* for form section */
    #registration {
-      margin-bottom: 50px;
+      margin-bottom: 120px;
    }
    #booking {
       height: 100vh;
@@ -342,4 +373,28 @@ h2 {
    #front-text {
       margin-top: 50px;
    }
+
+   #registration-form {
+      margin-bottom: 100px;
+      width: 500px;
+      height: 260px;
+      
+   }
+   .book-button {
+      background-color: #ffffff;
+      color:#000000;
+      cursor: pointer;
+      padding: 10px;
+      font-weight: bold;
+      margin-top: 10px;
+   
+   }
+
+   .explore {
+      margin-bottom: 20px;
+   }
+   #flight {
+      height: 220px;
+   }
+   
 }
