@@ -86,7 +86,7 @@ nav {
 /* main style content */
 main {
    flex: 1 0 auto;
-   margin-top: 32px;
+   margin-top: 30px;
    font-family: robto;
 }
 
@@ -197,7 +197,7 @@ h2 {
 /* styling the form for booking.html section */
 .table-text {
    background: transparent;
-   width: 300px;
+   width: 200px;
    height: 40px;
 }
 
@@ -293,7 +293,6 @@ h2 {
       height: 400px;
       width: 450px;
       margin: auto;
-      
    }
    
 }
