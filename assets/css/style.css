@@ -186,7 +186,7 @@ h2 {
    color: #ffffff;
    background-color: rgba(0, 0, 0, .6);
    padding: 20px;
-   margin: 10px;
+   margin: 5px;
    height: 400px;
 }
 
@@ -216,6 +216,39 @@ h2 {
    cursor: pointer;
    border: 1px solid #000000;
 }
+
+/* styling of contact page */
+
+#contact {
+   background: url("../image/plan.webp") no-repeat center center/cover;
+   min-height: 100vh;
+   width: 100%;
+
+}
+
+#contact-information {
+   margin: 2px;
+   padding: 2px;
+}
+
+#contact-details {
+   padding: 20px;
+}
+
+.bold {
+   font-weight: bold;
+}
+
+table, th, td {
+   width: 100%;
+   color: #000000;
+   border: 1px solid #ffffff;
+}
+
+.table-flow {
+   overflow-y: auto;
+}
+
 
    
 
@@ -294,7 +327,10 @@ h2 {
       width: 450px;
       margin: auto;
    }
-   
+   table {
+     width: 80%;  
+     
+   }
 }
 
 /* Creating media query for larger device */
@@ -354,6 +390,10 @@ h2 {
       background-color: #ffffff;
       margin: 5px;
 
+   }
+
+   table {
+      
    }
 
  
