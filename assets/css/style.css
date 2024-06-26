@@ -249,6 +249,25 @@ table, th, td {
    overflow-y: auto;
 }
 
+#contact-information > h2 {
+   color: #ffffff;
+   padding-top: 20px;
+   text-align: center;
+ } 
+
+#airways > h3 {
+   margin-top: 20px;
+   text-align: center;
+   color: #ffffff;
+}
+
+#airways > p {
+   margin-top: 20px;
+   font-style: oblique;
+   font-weight: bold;
+
+}
+
 
    
 
@@ -338,6 +357,11 @@ table, th, td {
    
    td, tr {
       text-align: center;
+   }
+
+   #airways > p {
+      margin-top: 20px;
+      padding-left: 5px;
    }
 
 }
