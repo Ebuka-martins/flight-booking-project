@@ -227,7 +227,7 @@ h2 {
 }
 
 #contact-information {
-   margin: 2px;
+   margin: 0;
    padding: 2px;
 }
 
@@ -329,8 +329,17 @@ table, th, td {
    }
    table {
      width: 80%;  
-     
+     margin: auto;
    }
+
+   tr:hover {
+      background-color: saddlebrown;
+   }
+   
+   td, tr {
+      text-align: center;
+   }
+
 }
 
 /* Creating media query for larger device */
@@ -389,11 +398,8 @@ table, th, td {
    .table-button:hover {
       background-color: #ffffff;
       margin: 5px;
-
-   }
-
-   table {
-      
+      border-radius: 5px solid #ffffff;
+      cursor: pointer;
    }
 
  
