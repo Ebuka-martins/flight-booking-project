@@ -245,7 +245,8 @@ h2 {
 table, th, td {
    width: 100%;
    color: #000000;
-   border: 1px solid #ffffff;
+   /* border: 1px solid #ffffff; */
+   background: transparent;
 }
 
 .table-flow {
