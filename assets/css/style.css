@@ -188,6 +188,9 @@ h2 {
    padding: 20px;
    margin: 5px;
    height: 400px;
+   position: relative;
+   top: 50px;
+   bottom: 100px;
 }
 
 #reservation > h2 {
@@ -371,6 +374,9 @@ table, th, td {
       height: 400px;
       width: 450px;
       margin: auto;
+      position: relative;
+      top: 50px;
+      bottom: 100px;
    }
    table {
      width: 80%;  
