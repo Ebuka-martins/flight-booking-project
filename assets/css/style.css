@@ -129,7 +129,7 @@ h2 {
 
 
 
-/* registration properties */
+/* registration properties for index.html*/
 
 #registration-form {
    padding: 0 10px;
@@ -181,7 +181,7 @@ h2 {
    flex: 1;
 }
 
-/* booking page for form  for booking.html  */
+/* booking page for form for booking.html  */
 
 #reservation {
    color: #ffffff;
@@ -361,6 +361,8 @@ table, th, td {
 .dropdown i {
     font-size: 16px;
 }
+
+
 .dropdown:hover {
    background-color: #14202f;
 }
@@ -527,6 +529,7 @@ table, th, td {
    #bar a:hover {
       border-bottom: 1px solid #14202f;
    }
+
     .explore {
       display: flex;
       flex-direction: column;
@@ -576,8 +579,9 @@ table, th, td {
    .table-button:hover {
       background-color: #ffffff;
       margin: 5px;
-      border-radius: 5px solid #ffffff;
+      border-radius: 5px;
       cursor: pointer;
+      
    }
 
    /* styling contact.html for laptops*/
