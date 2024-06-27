@@ -44,8 +44,8 @@
       <section id="booking-image">
         <form id="reservation" action="responsive.html" method="get">
         <h2>PHANTOM AIRWAYS <i class="fa-solid fa-plane-departure"></i></h2>
-        <label for="fname">First Name</label>
-        <input type="text" id="name" name="fname" class="table-text" required>
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="fname" class="table-text" required>
         <br>
         <label for="lname">Last Name</label>
         <input type="text" id="lname" name="lname" class="table-text" required>
@@ -53,8 +53,8 @@
         <label for="email">Email</label>
         <input type="email" id="email" name="email" class="table-text" required>
         <br>
-        <label for destination>Destination</label>
-        <select>
+        <label for="destination">Destination</label>
+        <select id="destination" name="destination">
             <option value="Ireland">Ireland</option>
             <option value="england">England</option>
             <option value="sweden">Sweden</option>
@@ -67,8 +67,8 @@
             <option value="newzealand">New Zealand</option>
         </select><br>
         <div id="radio-button">
-        <label for="type">Ticket Type:</label>
-        <input type="radio" id="lowest Price" name="choice-preference" required>
+        <label for="lowest">Ticket Type:</label>
+        <input type="radio" id="lowest" name="choice-preference" required>
         <label for="lowest">Lowest Price</label>
         <input type="radio" id="flexible" name="choice-preference" required>
         <label for="flexible">Flexible Ticket</label>
