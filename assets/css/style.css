@@ -319,7 +319,7 @@ table, th, td {
 .help-button {
    /* to create a gap between the header and the button */
    margin-top: 20px;
-   /* background-color: rgba(0, 0, 0, .6); */
+   background-color: rgba(0, 0, 0, .6);
 
 }
 
@@ -361,12 +361,9 @@ table, th, td {
 .dropdown i {
     font-size: 16px;
 }
-.active, .dropdown:hover {
+.dropdown:hover {
    background-color: #14202f;
 }
-
-
-
    
 
 /* footer */
