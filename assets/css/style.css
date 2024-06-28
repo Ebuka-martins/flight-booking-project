@@ -96,10 +96,12 @@ main {
    min-height: 100vh;
    width: 100%;
    background: url("../image/plane.webp") no-repeat center center/cover;
+   padding-top: 10px;
 }
 
 #flight {
    width: 100%;
+   padding-top: 20px;
 }
 
 #front-text {
@@ -120,6 +122,10 @@ main {
 
 }
 
+.explore p {
+   padding: 15px;
+}
+
 h2 {
   color: #ffffff;
   padding-top: 20px;
@@ -136,13 +142,15 @@ h2 {
    color: #ffffff;
    width: 90%;
    border-radius: 10px;
-   padding-bottom: 50px;
+   padding-bottom: 35px;
    margin: 10px;
+   margin-bottom: 0;
 }
 
 
 #registration {
    width: 100%;
+
 }
 
 /* styling the form for index.html section */
@@ -191,7 +199,15 @@ h2 {
    position: relative;
    top: 50px;
    bottom: 100px;
+
 }
+
+#destination {
+   color: #ffffff;
+   background-color: #000000;
+   
+} 
+
 
 #reservation > h2 {
    margin-bottom: 5px;
@@ -202,6 +218,7 @@ h2 {
    background: transparent;
    width: 200px;
    height: 40px;
+   color: #ffffff;
 }
 
 #radio-button {
@@ -337,6 +354,7 @@ table, th, td {
    color: #ffffff;
    font-size: 16px;
    line-height: 1.4;
+   
 }
 
 /* the button tag question for help.html */
@@ -354,6 +372,7 @@ table, th, td {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   text-transform: uppercase;
 
 }
 
@@ -415,21 +434,43 @@ table, th, td {
    main {
       margin-top: 40px;
    }
+
+   .explore p {
+      padding: 15px;
+   }
    
 #registration-form  {
    margin: 5px;
+   padding-bottom: 10px;
+   width: 90%;
+   border-radius: 10px;
+   
 }
 
    #registration {
       align-items: center;
-      width: 500px;
+      width: 600px;
       height: 250px;
       align-items: center;
       margin: auto;
+      padding-top: 40px;
+   }
+
+   .book-input {
+      background: transparent;
+      cursor: pointer;
+      color: #ffffff;
+      width: 90%;
+      height: 30px;
+      border-radius: 3px;
+      padding: 0 5px;
+   
    }
 
    #front-text {
       margin-top: 50px;
+      padding-top: 10px;
+      font-size: large;
    }
 
    /* styling for booking.html */
@@ -438,13 +479,33 @@ table, th, td {
       background-color: rgba(0, 0, 0, .6);
       padding: 30px;
       margin: 10px;
-      height: 400px;
+      height: 510px;
       width: 450px;
       margin: auto;
       position: relative;
       top: 50px;
       bottom: 100px;
+   
    }
+
+   .table-text {
+
+      width: 90%;
+      height: 30px;
+   }
+
+   #destination {
+      color: #ffffff;
+      background-color: #000000;
+      
+   } 
+
+   #radio-button {
+      padding-top: 20px;
+   }
+
+
+/* for contact.html */
    table {
      width: 80%;  
      margin: auto;
@@ -538,6 +599,11 @@ table, th, td {
      background-color: rgba(0, 0, 0, .6);
      
    } 
+
+   .explore p {
+      padding: 15px;
+   }
+
    #registration-form {
       padding: 0 10px;
       background-color: rgba(0, 0, 0, .6);
@@ -563,6 +629,11 @@ table, th, td {
 
    .book-input:hover {
       border-color: #ffffff;
+   }
+
+   #reservation {
+      padding-bottom: 50px;
+
    }
 
    /* styling for booking.html section */

@@ -45,16 +45,16 @@
         <form id="reservation" action="responsive.html" method="get">
         <h2>PHANTOM AIRWAYS <i class="fa-solid fa-plane-departure"></i></h2>
         <label for="firstname">First Name</label>
-        <input type="text" id="firstname" name="fname" class="table-text" required>
+        <input pattern="\S(.*\S)?" type="text" id="firstname" name="fname" class="table-text" placeholder="Firstname" required>
         <br>
         <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lname" class="table-text" required>
+        <input pattern="\S(.*\S)?" type="text" id="lname" name="lname" class="table-text" placeholder="Lastname" required>
         <br>
         <label for="email">Email</label>
-        <input type="email" id="email" name="email" class="table-text" required>
-        <br>
+        <input pattern="\S(.*\S)?" type="email" id="email" name="email" class="table-text" placeholder="email" required>
+        <br><br>
         <label for="destination">Destination</label>
-        <select id="destination" name="destination">
+        <select class="table-text" id="destination" name="destination">
             <option value="Ireland">Ireland</option>
             <option value="england">England</option>
             <option value="sweden">Sweden</option>
@@ -74,8 +74,10 @@
         <label for="flexible">Flexible Ticket</label>
         <br>
     </div>
+        <div class="check">
         <input type="checkbox" id="tick" name="tick-input" required>
         <label>I UNDERSTAND AND AGREE TO THIS FORM AND FLIGHT POLICY</label>
+        </div>
         <br>
         <div>
             <button type="submit" class="table-button">BOOK YOUR FLIGHT</button>
