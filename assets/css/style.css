@@ -21,7 +21,7 @@ header {
    z-index: 3;
    width: 100%;
    box-shadow: 0 1px;
-   background-color:white;
+   background-color:#ffffff;
    justify-content: space-between;
    align-items: baseline;
    position: fixed;
@@ -176,7 +176,7 @@ h2 {
 }
 
 .book-button:hover {
-   background-color: saddlebrown;
+   background-color: #8b4513;
 }
 
 
@@ -229,7 +229,7 @@ h2 {
 .table-button {
    border-radius: 2px;
    color: #000000;
-   background-color: saddlebrown;
+   background-color: #8b4513;
    padding: 7px 14px;
    font-weight: bold;
    cursor: pointer;
@@ -358,7 +358,7 @@ table, th, td {
 
 /* the button tag question for help.html */
 .dropdown {
-   background-color: saddlebrown;
+   background-color: #8b4513;
    opacity: 0.8;
    color: #ffffff;
    font-weight: bold;
@@ -511,7 +511,7 @@ table, th, td {
    }
 
    tr:hover {
-      background-color: saddlebrown;
+      background-color: #8b4513;
    }
    
    td, tr {
