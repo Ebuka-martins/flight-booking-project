@@ -42,14 +42,23 @@ The site can be accessed through the [link](https://ebuka-martins.github.io/flig
 
   - Booking page forms
 
-     ![booking Page forms](assets/image/form-two.png)
+    ![booking Page forms](assets/image/form-two.png)
 
 
  - __The Footer_
 
    - The footer section contains social media icon links to enable the users find us on twitter X, facebook, youtube and instagram.
    - The footer is important to users because it gives them the ability to find us on social media for vital informations and updates.
-    ![footer](assets/image/footer.png)
+   ![footer](assets/image/footer.png)
+
+
+ - __The booking Page Section_  
+
+    - This section is where every users need to chose the destination and the type of ticket.
+    - This section gives users the room to make choices of the booking of what they want which will directly leads you to a responsive page.
+    
+      ![The booking Page Section](assets/image/book.png)
+
 
   
 
