@@ -127,12 +127,11 @@ main {
 }
 
 h2 {
-  color: #ffffff;
-  padding-top: 20px;
-  text-align: center;
-} 
-
-
+   color: #ffffff;
+   padding-top: 20px;
+   text-align: center;
+   background: #00000010;
+}
 
 /* registration properties for index.html*/
 
@@ -223,7 +222,7 @@ h2 {
 
 .table-button {
    border-radius: 2px;
-   color: #000000;
+   color: #ffffff;
    background-color: #8b4513;
    padding: 7px 14px;
    font-weight: bold;
@@ -404,6 +403,20 @@ table, th, td {
    justify-content: center;
 }
 
+#error-main {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+
+#error-h1,
+#error-p,
+#error-a {
+   text-align: center;
+   margin: 50px auto;
+}
+
 
 /* creating media query from mobile-to-tablet using 768px */
 
@@ -439,22 +452,19 @@ table, th, td {
       padding: 15px;
    }
    
-#registration-form  {
-   margin: 5px;
-   padding-bottom: 10px;
-   width: 90%;
-   border-radius: 10px;
-   
-}
+   #registration-form {
+      margin: 0 auto;
+      padding-bottom: 10px;
+      width: 90%;
+      border-radius: 10px;
+  }
 
-   #registration {
-      align-items: center;
-      width: 600px;
-      height: 250px;
-      align-items: center;
-      margin: auto;
-      padding-top: 40px;
-   }
+  #registration {
+   align-items: center;
+   width: 600px;
+   margin: 0 auto;
+   padding: 40px 0;
+}
 
    .book-input {
       background: transparent;
@@ -478,15 +488,11 @@ table, th, td {
       color: #ffffff;
       background-color: rgba(0, 0, 0, .6);
       padding: 30px;
-      margin: 10px;
-      height: 510px;
+      height: 80%;
       width: 450px;
-      margin: auto;
+      margin: 0 auto;
       position: relative;
-      top: 50px;
-      bottom: 100px;
-   
-   }
+  }
 
    .table-text {
 
@@ -592,9 +598,9 @@ table, th, td {
 
     .explore {
       display: flex;
-      flex-direction: column;
-     height: 100px;
-     width: 100%;
+      flex-direction: row;
+     height: 285px;
+     width: 130px;
      margin: 20px;
      background-color: rgba(0, 0, 0, .6);
      
@@ -611,8 +617,8 @@ table, th, td {
       width: 500px;
       height: 280px;
       border-radius: 10px;
-      margin-bottom: 50px;
-   }
+   
+  }
   
    #booking {
       min-height: 100vh;
@@ -620,7 +626,10 @@ table, th, td {
 
    #front-text {
       margin-top: 50px;
-   }
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
 
    .book-input {
       width: 200px;
@@ -688,24 +697,10 @@ table, th, td {
 /* media query for screen above 1024px*/
 @media screen and (min-width: 1024px) {
 
-   /* for form section */
-   #registration {
-      margin-bottom: 120px;
-   }
-   #booking {
-      height: 100vh;
-   }
+  #registration-form {
+   width: 500px;
+}
 
-   #front-text {
-      margin-top: 50px;
-   }
-
-   #registration-form {
-      margin-bottom: 100px;
-      width: 500px;
-      height: 260px;
-      
-   }
    .book-button {
       background-color: #ffffff;
       color:#000000;
@@ -718,9 +713,10 @@ table, th, td {
 
    .explore {
       margin-bottom: 20px;
-   }
-   #flight {
-      height: 220px;
-   }
+      width: 200px;
+      height: 339px;
+      font-size: 1.5em;
+  }
+   
    
 }
