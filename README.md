@@ -29,6 +29,21 @@ The site can be accessed through the [link](https://ebuka-martins.github.io/flig
   - This should also encourage users to consider booking there flgiht, car, plane and hotels.
   ![Home Page Section](assets/image/hom.png)
 
+- __Forms and Buttons_
+    
+    - The forms and buttons on this project is where you can book for your trips.
+    - The forms also enables users to choose the type of ticket they want to book.
+    - The forms are user friendly to customers which enables them to always fill in there trip choices correctly before leaving the website.
+    - The buttons gives the users the choice to reset the filling options if they chose to restart the booking application.
+   
+   - Home page forms
+    
+     ![Home Page forms](assets/image/form-one.png)
+
+  - Booking page forms
+
+     ![booking Page forms](assets/image/form-two.png)
+
 
  - __The Footer_
 
