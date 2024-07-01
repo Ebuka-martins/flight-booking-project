@@ -6,3 +6,8 @@ Moreover, users of this website can discover the new adventures by searching for
 The site can be accessed through the [link](https://ebuka-martins.github.io/flight-booking-project/)
 
 ![flight booking website](assets/image/front-page.png)
+
+
+![lighthouse test](assets/image/lighthousee-test.png)
+
+![wave test](assets/image/wave-test.png)
