@@ -17,7 +17,7 @@ The site can be accessed through the [link](https://ebuka-martins.github.io/flig
   - The navigation clearly tell the users the name of the website with informations easy to find in different sections on where to book for your trips and bookings.
   ![nav bar](assets/image/nav-bar.png)
 
-  - __The Home Page Section_
+- __The Home Page Section_
 
   - The home section include the symbol and logo of the company.
   - It also shows a form on the home page which include a searching form where you can look for your trips and booking.
@@ -27,6 +27,15 @@ The site can be accessed through the [link](https://ebuka-martins.github.io/flig
   - This section can link you directly to the booking section where you can proceed with the booking choices.
   - This section introduces the user of different  type flight class you want to book.
   - This should also encourage users to consider booking there flgiht, car, plane and hotels.
+  ![Home Page Section](assets/image/hom.png)
+
+
+ - __The Footer_
+
+   - The footer section contains social media icon links to enable the users find us on twitter X, facebook, youtube and instagram.
+   - The footer is important to users because it gives them the ability to find us on social media for vital informations and updates.
+    ![footer](assets/image/footer.png)
+
   
 
 
