@@ -28,7 +28,7 @@
             <h1 id="symbol">Phantom Airways <i class="fa-solid fa-plane-departure"></i></h1>
         </a>
         <input type="checkbox" id="nav-click" name="nav-click">
-        <label for="nav-click" class="nav-click-label"><i class="fa-solid fa-bars"></i></label>
+        <label for="nav-click" class="nav-click-label">&#8203;<i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="bar">
                 <li><a href="index.html" class="active">Home</a></li>
@@ -73,10 +73,10 @@
                 <form id="registration-form" action="booking.html" method="get" target="_blank">
                     <h2>Search For your Trips <i class="fa-regular fa-address-card"></i></h2>
                     <label for="username">Username</label>
-                    <input pattern="\S(.*\S)?" type="email" id="username" name="username" placeholder="username" class="book-input" required>
+                    <input type="email" id="username" name="username" placeholder="username" class="book-input" required>
                     <br>
                     <label for="password">Password</label>
-                    <input pattern="\S(.*\S)?" type="password" id="password" name="password" placeholder="password" class="book-input"  required>
+                    <input type="password" id="password" name="password" placeholder="password" class="book-input"  required>
                     <br>
                     <input type="radio" id="trip" name="booking-preference" required>
                     <label for="trip">Trip</label>
@@ -88,10 +88,10 @@
                     <label for="hotel">Hotel</label>
                     <br>
                     <label for="from">From</label>
-                    <input pattern="\S(.*\S)?" type="date" id="from" name="from" class="book-input">
+                    <input type="date" id="from" name="from" class="book-input">
                     <br>
                     <label for="return">Return</label>
-                    <input pattern="\S(.*\S)?" type="date" id="return" name="return" class="book-input">
+                    <input type="date" id="return" name="return" class="book-input">
                     <br>
                     <label for="travel">Travel Choice</label>
                     <select id="travel" name="travel">

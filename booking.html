@@ -28,7 +28,7 @@
             <h1 id="symbol">Phantom Airways <i class="fa-solid fa-plane-departure"></i></h1>
         </a>
         <input type="checkbox" id="nav-click" name="nav-click">
-        <label for="nav-click" class="nav-click-label"><i class="fa-solid fa-bars"></i></label>
+        <label for="nav-click" class="nav-click-label">&#8203;<i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="bar">
                 <li><a href="index.html">Home</a></li>
@@ -45,13 +45,13 @@
         <form id="reservation" action="responsive.html" method="get">
         <h2>PHANTOM AIRWAYS <i class="fa-solid fa-plane-departure"></i></h2>
         <label for="firstname">First Name</label>
-        <input pattern="\S(.*\S)?" type="text" id="firstname" name="fname" class="table-text" placeholder="Firstname" required>
+        <input type="text" id="firstname" name="fname" class="table-text" placeholder="Firstname" required>
         <br>
         <label for="lname">Last Name</label>
-        <input pattern="\S(.*\S)?" type="text" id="lname" name="lname" class="table-text" placeholder="Lastname" required>
+        <input type="text" id="lname" name="lname" class="table-text" placeholder="Lastname" required>
         <br>
         <label for="email">Email</label>
-        <input pattern="\S(.*\S)?" type="email" id="email" name="email" class="table-text" placeholder="email" required>
+        <input type="email" id="email" name="email" class="table-text" placeholder="email" required>
         <br><br>
         <label for="destination">Destination</label>
         <select class="table-text" id="destination" name="destination">
@@ -67,7 +67,7 @@
             <option value="newzealand">New Zealand</option>
         </select><br>
         <div id="radio-button">
-        <label for="lowest">Ticket Type:</label>
+        <p>Ticket Type:</p>
         <input type="radio" id="lowest" name="choice-preference" required>
         <label for="lowest">Lowest Price</label>
         <input type="radio" id="flexible" name="choice-preference" required>
@@ -76,7 +76,7 @@
     </div>
         <div class="check">
         <input type="checkbox" id="tick" name="tick-input" required>
-        <label>I UNDERSTAND AND AGREE TO THIS FORM AND FLIGHT POLICY</label>
+        <label for="tick">I UNDERSTAND AND AGREE TO THIS FORM AND FLIGHT POLICY</label>
         </div>
         <br>
         <div>
