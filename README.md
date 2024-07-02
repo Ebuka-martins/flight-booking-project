@@ -52,15 +52,51 @@ The site can be accessed through the [link](https://ebuka-martins.github.io/flig
    ![footer](assets/image/footer.png)
 
 
- - __The booking Page Section_  
+ - __The Booking Page Section_  
 
     - This section is where every users need to chose the destination and the type of ticket.
     - This section gives users the room to make choices of the booking of what they want which will directly leads you to a responsive page.
     
-      ![The booking Page Section](assets/image/book.png)
+      ![The Booking Page Section](assets/image/book.png)
+
+ - __The Contact Page Section_ 
+   
+   - This section gives the users a platform where they can search for the companies phone numbers, find contact information, and read a brief information about phantom airways.
+   - The section contain the name, emails, phone number, and positions of the companies officials where the users can contact should they have a questions.
+   - The section has a beautiful sky plane view background that gives the user that sensory experience.
+
+    ![The Contact Page Section](assets/image/contact.png)
+
+ - __The Help Page Section_ 
+
+   - The page has a plane background view.
+   - The section is a GOT A QUESTION PAGE where users can view for a quick answers to their question.
+   - The section has a hovering tag where the users can click for their answers.
+   - This section also gives the users an answers when their flight is been delayed or cancelled.
+   - This section also gives the users an answers when their baggages is lost or damaged.
+   - in this section, a user can find a quick answer to their question when their flight is cancelled.
+   - The page section create an hovering icon where the users can file for a complaint.
+
+  ![The Help Page Section](assets/image/help.png)
+
+- __The Responsive Page Section_
+
+  - The page tells the user that their trips, flight has been booked.
+  - It is the feedback a user get after filling the order form to place a booking.
+  - The responsive page background has a plane flying logo.
+ 
+ ![The Responsive Page Section](assets/image/response.png)
 
 
-  
+- __The 404 Error Page Section_
+
+  - This section is an error page that emanate when a user type the wrong website.
+  - The section is also user friendly to users, which means that it helps the user to always finds or return to the home page of the website.
+
+ ![The 404 error Page Section](assets/image/404.png) 
+
+
+##Design 
 
 
 
