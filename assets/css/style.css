@@ -387,7 +387,7 @@ table, th, td {
 
 /* footer */
 #social-media {
-    background-color: black;
+    background-color: #000000;
     padding: 20px 0;
     list-style-type: none;
     display: flex;

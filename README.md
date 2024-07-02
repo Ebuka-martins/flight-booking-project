@@ -1,4 +1,4 @@
-#FLIGHT BOOKING WEBSITE
+# FLIGHT BOOKING WEBSITE
 
 Phantom Airways is a flight booking website that make your travel planning seamless and hassle-free
 it is a website where passengers can book there flight of any kind to any destination around Europe and South America.
@@ -7,7 +7,7 @@ The site can be accessed through the [link](https://ebuka-martins.github.io/flig
 
 ![flight booking website](assets/image/front-page.png)
 
-##Features
+## Features
 
 - __Navigation Bar_
 
@@ -96,7 +96,20 @@ The site can be accessed through the [link](https://ebuka-martins.github.io/flig
  ![The 404 error Page Section](assets/image/404.png) 
 
 
-##Design 
+## Design 
+
+  ### Color Design
+
+  ![Color Design](assets/image/test-colors.png) 
+
+  - White color was used as the font text of the website and the text on the button.
+  - Transparent black color was used as the design background for forms, tables and hovering color that appears on the help page section when the you cursor.
+  - Saddlebrown was used as the background color of the button and on the details section on the help page section.
+  - Black color was also used as background color for footer and text color for content of header.
+  - White color was also used as the background color for the header.
+
+ 
+
 
 
 
