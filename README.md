@@ -108,6 +108,23 @@ The site can be accessed through the [link](https://ebuka-martins.github.io/flig
   - Black color was also used as background color for footer and text color for content of header.
   - White color was also used as the background color for the header.
 
+  ### Typography 
+
+  - Roboto google font was used as the main font of the website in order to increase readability of the content on the pages.
+
+![Roboto font](assets/image/roboto.png) 
+
+
+# Testing
+ 
+ ### Responsiveness 
+
+  - In order to confirm the responsiveness across devices, the website was checked by devtools implemented in chrome browser, Microsoft Edge, and Firefox.  
+
+ ### Compactability
+
+  - In order to confirm the correct functionality and appearance across devices, the website was tested on the following browsers: Chrome, Firefox and Microsoft Edge.
+ 
  
 
 
