@@ -242,7 +242,23 @@ The site can be accessed through the [link](https://ebuka-martins.github.io/flig
 
  - Alternatively,  if you use Gitpod, you can [link](https://ebuka-martins.github.io/flight-booking-project/) which will start the Gitpod workspace for you.
 
- 
+
+## Credit Accolade
+
+  - my inspiration was gotten from [Code Institute](https://codeinstitute.net/ie/) love Running lectures
+  - The background flight images was gotten from [imagine art](https://www.imagine.art/).
+  - The font icon used both on the website and footer was gotten from [font awesome](https://fontawesome.com/).
+  - The favicon logo generator used for this website was gotten from [favicon](https://favicon.io/).
+  - The media query screen was gotten from an inspiration gottern [w3school](https://www.w3schools.com/html/default.asp).
+  - The color text given to this was gotten from [color adobe](https://color.adobe.com/create/color-wheel).
+  - The group color text logo munched for this README was gotten frm [color co](https://coolors.co/).
+  - The Roboto font was gotten from [google font](https://fonts.google.com/)
+  - The website used to screenshot the full website used on features for README [thum io](https://www.thum.io/).
+  - The tools used to screenshot various device breakpoint for responsive design for README was gotten from [am i responsive](https://ui.dev/amiresponsive).
+  - The tools used to convert png to webd used for the website's image was gotten [freeconvert](https://www.freeconvert.com/jpg-to-webp).
+  
+
+
 
 
  
