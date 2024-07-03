@@ -205,6 +205,24 @@ The site can be accessed through the [link](https://ebuka-martins.github.io/flig
 ## Lighthouse test Report
 
   - Using lighthouse in devtools for my website, I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
-![lighthouse test](assets/image/lighthousee-test.png)
+
+  ### Home Page Section
+  ![lighthouse Home test](assets/image/lighthousee-test.png)
+  
+  ### Booking Page Section
+  ![lighthouse Booking test](assets/image/lighthouse-booking.png)
+
+  ### Contact Page Section
+  ![lighthouse Contact test](assets/image/lighthouse-contact.png)
+
+  ### Help Page Section
+   ![lighthouse Help test](assets/image/lighthouse-help.png)
+
+  ### Response Page Section
+   ![lighthouse Response test](assets/image/lighthouse-response.png)
+
+  ### 404 Error Page Section
+   ![lighthouse 404error test](assets/image/lighthouse-error.png)
+
 
  
