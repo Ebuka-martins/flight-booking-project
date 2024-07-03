@@ -164,6 +164,14 @@ The site can be accessed through the [link](https://ebuka-martins.github.io/flig
 | Help page Section| | | | | |
 | Details and Summary | Click the Details | Click the summary box is required | Yes | Yes | If user clicked the summary the solution to the quastion will come up |
 
+## Validation
+
++ ### HTML
+  - Initially an errors was found at the label forms, which was resolved according by checking through for errors.
+  
+  ### Home page Section
+ 
+
  
  
 
