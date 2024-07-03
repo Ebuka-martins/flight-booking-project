@@ -167,18 +167,44 @@ The site can be accessed through the [link](https://ebuka-martins.github.io/flig
 ## Validation
 
 + ### HTML
-  - Initially an errors was found at the label forms, which was resolved according by checking through for errors.
+  - Initially an errors was found at the label forms of both the home and booking pages, which was resolved accordingly by checking through for errors.
   
-  ### Home page Section
+### Home page Section
+ - No errors or warnings were found when passing through the official W3C validator.
+ ![Home Page HTML Validator](assets/image/html-validator-booking.png)
+
+ ### Booking page Section
+  - No errors or warnings were found when passing through the official W3C validator.
+ ![Booking Page HTML Validator](assets/image/html-validator-booking.png)
+
+### Contact page Section
+  - No errors or warnings were found when passing through the official W3C validator.
+ ![Contact Page HTML Validator](assets/image/html-validator-contact.png)
  
+ ### Help page Section
+  - No errors or warnings were found when passing through the official W3C validator.
+ ![Help Page HTML Validator](assets/image/html-validator-contact.png)
 
- 
- 
+ ### Response page Section
+  - No errors or warnings were found when passing through the official W3C validator.
+ ![Help Page HTML Validator](assets/image/html-validator-contact.png)
 
+ ### 404 Error page Section
+  - No errors or warnings were found when passing through the official W3C validator.
+ ![404 Page HTML Validator](assets/image/html-validator-contact.png)
 
+ ### CSS
 
+  - No errors were returned when passing through the official W3C CSS Validator (Jigsaw).
+  ![CSS Jigsaw Validator](assets/image/css-validator.png)
 
+ ## Wave Test Report
+  - wave test report was used to test the webpage performance and functions in different environments or at different times. 
+  ![wave test](assets/image/wave-test.png)
 
+## Lighthouse test Report
+
+  - Using lighthouse in devtools for my website, I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
 ![lighthouse test](assets/image/lighthousee-test.png)
 
-![wave test](assets/image/wave-test.png)
+ 
