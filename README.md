@@ -257,6 +257,10 @@ The site can be accessed through the [link](https://ebuka-martins.github.io/flig
   - The tools used to screenshot various device breakpoint for responsive design for README was gotten from [am i responsive](https://ui.dev/amiresponsive).
   - The tools used to convert png to webd used for the website's image was gotten [freeconvert](https://www.freeconvert.com/jpg-to-webp).
   
+## Technologies Used
+ - [GitHub](https://github.com/) was used to host the code of the website.
+ - [Gitpod](https://gitpod.io/) was used as the main tool to write and edit code.  
+ 
 
 
 
