@@ -225,4 +225,24 @@ The site can be accessed through the [link](https://ebuka-martins.github.io/flig
    ![lighthouse 404error test](assets/image/lighthouse-error.png)
 
 
+## Deployment
+ ### Deployment to GitHub Pages
+   The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab.
+  - From the general navigate to pages.
+  - In the pages, from the source drop down menu, select the main branch, then click save.
+  - Once saved, the link will be created to the website.
+  The live link can be give as follows  [link](https://ebuka-martins.github.io/flight-booking-project/)
+
+  ### Local Deployment
+   - In order to make a local copy of this project, you can clone it.
+  - In your IDE Terminal, type the following command to clone my repository:
+
+ - `git clone https://github.com/Ebuka-martins/flight-booking-project.git`
+
+ - Alternatively,  if you use Gitpod, you can [link](https://ebuka-martins.github.io/flight-booking-project/) which will start the Gitpod workspace for you.
+
+ 
+
+
  
