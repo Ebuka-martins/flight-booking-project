@@ -264,7 +264,7 @@ The site can be accessed through the [link](https://ebuka-martins.github.io/flig
  ## Acknowlegement
  - I give Special thanks to my wife Precious Chidimma, my brother John Paul and my parents who has been a great support to me all through this project.
  - [Vernell Clark](https://github.com/VCGithubCode) is my friend and he has been a great support to me throughout this project.
- - [Jubril Akolade]() was a great mentor to me throughout this project.
+ - [Jubril Akolade](https://github.com/Jubrillionaire) was a great mentor to me throughout this project.
  -  [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
  -  [Love Running](https://codeinstitute.net/) tutors and Slack community members for their support and help.
  - [Ovundiano](https://github.com/Ovundiano) was also my friend who has been very supportive to me throughout this project. 
